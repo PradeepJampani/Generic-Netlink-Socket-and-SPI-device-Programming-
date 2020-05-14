@@ -517,16 +517,7 @@ int send_spi_pattern(uint16_t passPattern[], int length){
 	return 0;
 }
 
-/*************************************************************************************************************
-*
-*
-*   Funtion to open the LED matrix Driver and also to prepare the GPIO pins for SPI operation
-        IO 11   as MOSI
-        IO 12   as Slave Select
-        IO 13   as Clock Pin for SPI
-*
-*
-***************************************************************************************************************/
+
 
 
 
